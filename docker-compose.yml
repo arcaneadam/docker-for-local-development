@@ -40,6 +40,6 @@ services:
             - database_data:/var/lib/mysql
         environment:
             MYSQL_ROOT_PASSWORD: root
-            MYSQL_DATABASE: lng
-            MYSQL_USER: lng
-            MYSQL_PASSWORD: lng
+            MYSQL_DATABASE: DB
+            MYSQL_USER: DBUSER
+            MYSQL_PASSWORD: DBPWD
